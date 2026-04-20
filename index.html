@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Lahore Weather</title>
+    <link rel="stylesheet" href="styles.css?v=w1a2h3">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="city-name">Lahore, Pakistan</h1>
+            <p id="current-date"></p>
+        </header>
+        <main>
+            <div class="weather-card">
+                <div class="main-info">
+                    <div id="weather-icon-container"></div>
+                    <div class="temp-container">
+                        <span id="temperature">--</span><span class="unit">°C</span>
+                    </div>
+                </div>
+                <div id="weather-description">Loading...</div>
+                <div class="details">
+                    <div class="detail-item">
+                        <div class="label-with-icon">
+                            <i data-lucide="droplets" class="small-icon"></i>
+                            <span class="label">Humidity</span>
+                        </div>
+                        <span id="humidity" class="value">--%</span>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label-with-icon">
+                            <i data-lucide="wind" class="small-icon"></i>
+                            <span class="label">Wind Speed</span>
+                        </div>
+                        <span id="wind-speed" class="value">-- km/h</span>
+                    </div>
+                </div>
+            </div>
+            <div class="forecast" id="forecast-container">
+                <!-- Forecast items will be injected here -->
+            </div>
+        </main>
+        <footer>
+            <p>Last updated: <span id="last-updated">--:--</span></p>
+        </footer>
+    </div>
+    <script src="script.js?v=w1a2h3"></script>
+</body>
+</html>
