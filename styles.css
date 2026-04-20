@@ -1,9 +1,9 @@
 :root {
-    --primary: #00b7af;
-    --dark: #10181f;
+    --primary: #ff4d4d;
+    --dark: #1f1010;
     --light: #ffffff;
-    --secondary: #6a7071;
-    --bg-gradient: linear-gradient(135deg, #10181f 0%, #1a2a35 100%);
+    --secondary: #ff8080;
+    --bg-gradient: linear-gradient(135deg, #1f1010 0%, #351a1a 100%);
 }
 
 * {
